@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "React Library",
+  "compilerOptions": {
+    "composite": false,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSources": false,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveWatchOutput": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "types": ["node", "jest", "@testing-library/jest-dom"],
+    "lib": ["dom", "DOM.Iterable", "ESNext"],
+    "module": "ESNext",
+    "target": "es6"
+  },
+  "include": ["src", "testing", "typings", "static"],
+  "exclude": ["node_modules"]
+}

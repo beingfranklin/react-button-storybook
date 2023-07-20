@@ -1,0 +1,60 @@
+/* Block */
+.button {
+	@apply inline-flex items-center px-6 py-3 gap-2.5 rounded-extra-2xl font-Montserrat font-semibold text-btn leading-extra-loose;
+}
+
+/* Element */
+.button__icon {
+	@apply mr-2.5;
+}
+
+/* primary type */
+.button--primary {
+	@apply bg-primary text-font-default;
+}
+
+.button--primary:hover {
+	@apply bg-primary-hover;
+}
+
+.button--primary:active {
+	@apply bg-primary-pressed;
+}
+
+.button--primary:disabled {
+	@apply bg-primary-disabled cursor-not-allowed text-font-primary-disabled;
+}
+
+/* secondary type */
+.button--secondary {
+	@apply bg-secondary text-font-default;
+}
+
+.button--secondary:hover {
+	@apply bg-secondary-hover;
+}
+
+.button--secondary:active {
+	@apply bg-secondary-pressed;
+}
+
+.button--secondary:disabled {
+	@apply bg-secondary-disabled cursor-not-allowed text-font-secondary-disabled;
+}
+
+/* tertiary tyep */
+.button--tertiary {
+	@apply bg-tertiary text-font-default border-1 border-tertiary-border;
+}
+
+.button--tertiary:hover {
+	@apply bg-tertiary-hover border-tertiary-border-hover;
+}
+
+.button--tertiary:active {
+	@apply bg-tertiary-pressed border-tertiary-border-pressed;
+}
+
+.button--tertiary:disabled {
+	@apply bg-tertiary-disabled cursor-not-allowed border-tertiary-border-disabled text-font-tertiary-disabled;
+}
