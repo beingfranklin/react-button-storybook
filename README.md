@@ -6,7 +6,7 @@ react-code-test/
 ├── .storybook                  # Storybook config
 ├── .vscode                     # Editor config
 ├── .yarn                       # Yarn cache and releases
-├── src                         # Base - (write your code here)
+├── src                         # Base
 └── ...                         # ...
 ```
 
